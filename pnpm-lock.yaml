@@ -46,6 +46,9 @@ devDependencies:
   vitest:
     specifier: ^0.34.4
     version: 0.34.4
+  whatwg-fetch:
+    specifier: ^3.6.18
+    version: 3.6.18
 
 packages:
 
@@ -2363,6 +2366,10 @@ packages:
       - sugarss
       - supports-color
       - terser
+    dev: true
+
+  /whatwg-fetch@3.6.18:
+    resolution: {integrity: sha512-ltN7j66EneWn5TFDO4L9inYC1D+Czsxlrw2SalgjMmEMkLfA5SIZxEFdE6QtHFiiM6Q7WL32c7AkI3w6yxM84Q==}
     dev: true
 
   /which-boxed-primitive@1.0.2:
