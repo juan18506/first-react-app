@@ -11,14 +11,14 @@ const getResult = (a, b) => {
 //   return a + b;
 // }
 
-export const FirstApp = ({ title, version }) => {
+export const FirstApp = ({ title, subTitle, version }) => {
   // console.log(props);
 
   return (
     <>
       <h1>{ title }</h1>
-      <h2>A Subtitle</h2>
-      <p>{ version }</p>
+      <h2>{ subTitle }</h2>
+      <p>{ `Version: ${version}` }</p>
       <p>{ newMessage }</p>
       <p>{ getResult(7, 2) }</p>
       {/* <p>{ getResultAsync(7, 2) }</p> */}
@@ -28,5 +28,11 @@ export const FirstApp = ({ title, version }) => {
 
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
-  version: PropTypes.number.isRequired
+  subTitle: PropTypes.string,
+  version: PropTypes.number
+}
+
+FirstApp.defaultProps = {
+  subTitle: 'A Subtitle',
+  version: 1.0
 }
