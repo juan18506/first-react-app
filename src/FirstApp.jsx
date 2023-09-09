@@ -9,13 +9,13 @@ const getResultAsync = async (a, b) => {
   return a + b;
 }
 
-export const FirstApp = ({ title = 'My First App' }) => {
+export const FirstApp = ({ title, subTitle = 'A Subtitle' }) => {
   // console.log(props);
 
   return (
     <>
       <h1>{ title }</h1>
-      <h2>A Subtitle</h2>
+      <h2>{ subTitle }</h2>
       <p>{ newMessage }</p>
       <p>{ getResult(7, 2) }</p>
       {/* <p>{ getResultAsync(7, 2) }</p> */}
