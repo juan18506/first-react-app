@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { FirstApp } from './FirstApp.jsx';
+import { FirstApp } from './FirstApp';
 import './styles.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <FirstApp title="My First App" />
+    <FirstApp title='My First App' />
   </React.StrictMode>
 );
