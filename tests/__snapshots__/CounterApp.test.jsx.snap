@@ -10,13 +10,19 @@ exports[`Tests in <CounterApp /> > should match with snapshot 1`] = `
     100
      
   </h2>
-  <button>
+  <button
+    data-testid="btn-add"
+  >
      +1 
   </button>
-  <button>
+  <button
+    data-testid="btn-substract"
+  >
      -1 
   </button>
-  <button>
+  <button
+    data-testid="btn-reset"
+  >
      Reset 
   </button>
 </div>
