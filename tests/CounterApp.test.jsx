@@ -12,7 +12,7 @@ describe('Tests in <CounterApp />', () => {
 
   test('initial value should be 100', () => { 
     render( <CounterApp value={ initialValue } /> );
-    expect( screen.getByText(100) ).toBeTruthy();
+    expect( screen.getByText(initialValue) ).toBeTruthy();
   });
 
   it('should increment with +1 button', () => { 
