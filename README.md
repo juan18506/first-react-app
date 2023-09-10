@@ -37,17 +37,17 @@ cd react-counter-app
 Install packages :
 
 ```
-npm install
+pnpm install
 ```
 
 When installation is complete, run :
 
 ```
-npm run dev
+pnpm run dev
 ```
 
 To run tests:
 
 ```
-npm run test
+pnpm run test
 ```
