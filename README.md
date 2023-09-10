@@ -16,6 +16,8 @@ My first react app, this project is a simple counter app where you can add
   - Prop-types
   - defaultProps
   - useState hook
+  - Testing Javascript with Vitest
+  - Testing react with React Testing Library
 
 ## Author 
 
