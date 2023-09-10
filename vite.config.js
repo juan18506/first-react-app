@@ -6,6 +6,7 @@ export default defineConfig({
   base: "/react-counter-app/",
   plugins: [react()],
   test: {
+    globals: true,
     environment: "jsdom",
     setupFiles: ["./vitest.setup.js"],
   },

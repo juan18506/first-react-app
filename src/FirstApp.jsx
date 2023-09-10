@@ -16,10 +16,11 @@ export const FirstApp = ({ title, subTitle, version }) => {
 
   return (
     <>
-      <h1>{ title }</h1>
+      <h1 data-testid="test-title">{ title }</h1>
       <h2>{ subTitle }</h2>
       <p>{ `Version: ${version}` }</p>
       <p>{ newMessage }</p>
+      <h2>{ subTitle }</h2>
       <p>{ getResult(7, 2) }</p>
       {/* <p>{ getResultAsync(7, 2) }</p> */}
     </>
@@ -33,6 +34,6 @@ FirstApp.propTypes = {
 }
 
 FirstApp.defaultProps = {
-  subTitle: 'A Subtitle',
+  subTitle: 'There is no subtitle',
   version: 1.0
 }
