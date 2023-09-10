@@ -45,3 +45,9 @@ When installation is complete, run :
 ```
 npm run dev
 ```
+
+To run tests:
+
+```
+npm run test
+```
